@@ -502,6 +502,7 @@ body {
 @media (max-width: 645px) {
   .ueberschrift-bild {
     margin-top: 2rem;
+    flex-direction:column-reverse;
   }
   .wrapper {
     display: flex;
