@@ -10,91 +10,83 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="hintergrund-bild"></div>
-<!-- --------------------Navbar---------------------------------------------------------------->
-    <header class="nav-bar-ctn">
+    <div class="background_image"></div>
+
+    <header class="nav_bar_container">
       <div class="logo"><a href="index.html">Marc Herrndörfer</a></div>
-      <nav class="nav-bar" id="nav-id">
+      <nav class="nav_bar" id="nav-id">
         <a href="index.html">Startseite</a>
         <a href="#about">Über mich</a>
         <a href="#hobbys">Hobbys</a>
       </nav>
-<!-- --------------------Navbar---------------------------------------------------------------->
 
-      <div class="menu-toggle2" id="mobile-menu">
+      <div class="menu_toggle" id="mobile-menu">
         <i class="fas fa-bars"></i>
       </div>
     </header>
-<!-- --------------------Main---------------------------------------------------------------->
+
     <div class="wrapper">
-      <div class="ueberschrift-bild">
-        <div class="text-content">
+      <div class="headline_image">
+        <div class="text_content">
           <h1>Fachinformatiker für Anwendungsentwicklung</h1>
           <p>
             Hi, Willkommen auf meiner Webseite. Ich bin Marc Herrndörfer,
             angehender Fachinformatiker für Anwendungsentwicklung aus Ehndorf.
           </p>
         </div>
-        <div class="bild">
+        <div class="image">
           <img src="Bilder/DSC_9084.JPG" alt="Marc Herrndörfer" />
         </div>
       </div>
     </div>
 
     <section class="tech_stack">
-      <h2>Tech Stack</h2>
-      <div class="tech-stack list-menu-container">
-        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-        <label for="menu-toggle" class="menu-button">
-          <i class="fas fa-cogs"></i> Click here
-        </label>
-        <div class="tech-icons list-menu">
-          <a href="#" class="tech-item">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-              alt="Python"
-            />
-            <span>Python</span>
-          </a>
-          <a href="#" class="tech-item">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-              alt="Java"
-            />
-            <span>Java</span>
-          </a>
-          <a href="#" class="tech-item">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-              alt="HTML5"
-            />
-            <span>HTML5</span>
-          </a>
-          <a href="#" class="tech-item">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-              alt="CSS3"
-            />
-            <span>CSS3</span>
-          </a>
-          <a href="#" class="tech-item">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-              alt="JavaScript"
-            />
-            <span>JavaScript</span>
-          </a>
+      <h2>Kenntnisse in Programmiersprachen</h2>
+      <div class="tech_stack_menu">
+        <div class="tech_item">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            alt="Python"
+          />
+          <span>Python</span>
+        </div>
+        <div class="tech_item">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            alt="Java"
+          />
+          <span>Java</span>
+        </div>
+        <div class="tech_item">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            alt="HTML5"
+          />
+          <span>HTML5</span>
+        </div>
+        <div class="tech_item">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            alt="CSS3"
+          />
+          <span>CSS3</span>
+        </div>
+        <div class="tech_item">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript"
+          />
+          <span>JavaScript</span>
         </div>
       </div>
     </section>
 
-    <section class="about-me" id="about">
+    <section class="about_me" id="about">
       <div class="container">
-        <div class="about-content">
-          <div class="about-text">
+        <div class="about_content">
+          <div class="about_text">
             <h3>Über mich</h3>
             <p>
               Hallo! Mein Name ist Marc Herrndörfer, und ich bin ein angehender
@@ -112,15 +104,17 @@
               Wesentliche im Leben zu behalten und geben mir die Motivation, die
               ich für meine beruflichen Ziele brauche.
             </p>
-            <a href="#contact" class="btn" id="contactBtn">Kontakt aufnehmen</a>
+            <a href="#contact" class="button" id="contactBtn"
+              >Kontakt aufnehmen</a
+            >
             <div id="contactPopup" class="popup">
-              <div class="popup-content">
+              <div class="popup_content">
                 <span id="closeContactPopup" class="close">&times;</span>
                 <h2>Kontaktiere mich</h2>
                 <p>
                   Du kannst mich über folgende Social-Media-Kanäle erreichen:
                 </p>
-                <div class="social-media-links">
+                <div class="social_media_links">
                   <a
                     href="https://www.linkedin.com/in/marc-herrnd%C3%B6rfer-703817319/"
                     target="_blank"
@@ -133,59 +127,64 @@
               </div>
             </div>
           </div>
-          <div class="about-image">
+          <div class="about_image">
             <img src="Bilder/DSC_9128.JPG" alt="Marc Herrndörfer" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="hobbys" id="hobbys">
+    <section class="hobbies" id="hobbys">
       <h4>Hobbys</h4>
-      <div class="container-hobbys">
-        <div class="Hobbys">
+      <div class="hobbies_container">
+        <div class="hobby">
           <h5>Kraftsport</h5>
         </div>
-        <div class="Hobbys">
+        <div class="hobby">
           <h5>Kampfsport</h5>
         </div>
-        <div class="Hobbys">
+        <div class="hobby">
           <h5>IT</h5>
         </div>
       </div>
     </section>
+
     <section class="projects" id="projects">
       <div class="container">
         <h2>Projects incoming</h2>
-        <div class="loading-bar-container">
-          <div class="loading-bar"></div>
+        <div class="loading_bar_container">
+          <div class="loading_bar"></div>
         </div>
       </div>
     </section>
 
-<!-- --------------------Main---------------------------------------------------------------->
-
-<!-- --------------------Footer---------------------------------------------------------------->
     <footer class="footer">
       <h6>Stay Connected</h6>
-      <div class="footer-social">
-        <a href="https://www.linkedin.com/in/marc-herrnd%C3%B6rfer-703817319/" target="_blank" aria-label="LinkedIn">
+      <div class="footer_social">
+        <a
+          href="https://www.linkedin.com/in/marc-herrnd%C3%B6rfer-703817319/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
           <i class="fa-brands fa-linkedin fa-3x"></i>
         </a>
-        <a href="https://github.com/codeuser94-31" target="_blank" aria-label="GitHub">
+        <a
+          href="https://github.com/codeuser94-31"
+          target="_blank"
+          aria-label="GitHub"
+        >
           <i class="fab fa-github fa-3x"></i>
         </a>
       </div>
-      <div class="wrapper_footer">
+      <div class="footer_wrapper">
         <p>&copy; 2024 | Made by Marc Herrndörfer</p>
       </div>
     </footer>
-<!-- --------------------Footer---------------------------------------------------------------->
 
-    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+    <button onclick="scrollToTop()" id="scroll_to_top_button" title="Go to top">
       <i class="fas fa-arrow-up"></i>
     </button>
-<!-- --------------------Javascript---------------------------------------------------------------->
+
     <script>
       window.onscroll = function () {
         scrollFunction();
@@ -196,9 +195,11 @@
           document.body.scrollTop > 20 ||
           document.documentElement.scrollTop > 20
         ) {
-          document.getElementById("scrollToTopBtn").style.display = "block";
+          document.getElementById("scroll_to_top_button").style.display =
+            "block";
         } else {
-          document.getElementById("scrollToTopBtn").style.display = "none";
+          document.getElementById("scroll_to_top_button").style.display =
+            "none";
         }
       }
 
@@ -209,18 +210,33 @@
     <script>
       // Öffne das Popup, wenn der Kontakt-Button angeklickt wird
       document.getElementById("contactBtn").onclick = function () {
-        document.getElementById("contactPopup").style.display = "block";
+        const popup = document.getElementById("contactPopup");
+        popup.style.display = "block";
+        setTimeout(function () {
+          popup.classList.add("show");
+          popup.classList.remove("hide");
+        }, 10);
       };
 
       // Schließe das Popup, wenn auf das X geklickt wird
       document.getElementById("closeContactPopup").onclick = function () {
-        document.getElementById("contactPopup").style.display = "none";
+        const popup = document.getElementById("contactPopup");
+        popup.classList.add("hide");
+        popup.classList.remove("show");
+        setTimeout(function () {
+          popup.style.display = "none";
+        }, 500); // 500ms für die Schließanimation
       };
 
       // Schließe das Popup, wenn außerhalb des Inhaltsbereichs geklickt wird
       window.onclick = function (event) {
-        if (event.target == document.getElementById("contactPopup")) {
-          document.getElementById("contactPopup").style.display = "none";
+        const popup = document.getElementById("contactPopup");
+        if (event.target == popup) {
+          popup.classList.add("hide");
+          popup.classList.remove("show");
+          setTimeout(function () {
+            popup.style.display = "none";
+          }, 500);
         }
       };
     </script>
@@ -230,7 +246,5 @@
         navBar.classList.toggle("active");
       };
     </script>
-
-    <!-- --------------------Javascript--------------------------------------------------------------->
   </body>
 </html>
