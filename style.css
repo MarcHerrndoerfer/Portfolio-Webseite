@@ -517,6 +517,9 @@ body {
   .tech_stack_menu {
     flex-direction: column;
   }
+  .dev_tools_menu{
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 605px) {
@@ -611,6 +614,9 @@ body {
   .tech_stack h2 {
     font-size: 1.5rem;
   }
+  .dev_tools h2{
+    font-size: 1.5rem;
+  }
 
   .text_content p {
     font-size: 0.9rem;
@@ -662,6 +668,9 @@ body {
 
 @media (max-width: 318px) {
   .tech_stack h2 {
+    font-size: 1rem;
+  }
+  .dev_tools h2{
     font-size: 1rem;
   }
 }
