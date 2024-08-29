@@ -606,6 +606,9 @@ body {
     margin: 0;
     padding: 15px;
   }
+  .background_image{
+    background: linear-gradient(135deg, #0d2c39, #203a43, #68a3bc);
+  }
 
   .text_content h1 {
     font-size: 1.2rem;
