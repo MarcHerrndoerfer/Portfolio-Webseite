@@ -158,6 +158,25 @@ body {
 .tech_item:hover {
   color: #007bff;
 }
+.dev_tools{
+  text-align: center;
+  margin: 100px 0;
+  position: relative;
+  padding: 20px;
+}
+.dev_tools_menu{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.dev_tools h2{
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
 
 /* Über mich */
 .about_me {
